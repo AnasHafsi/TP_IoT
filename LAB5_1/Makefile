@@ -1,0 +1,9 @@
+CONTIKI_PROJECT = LAB5_1
+all: $(CONTIKI_PROJECT)
+
+DEFINES=RF_CHANNEL=15
+
+#UIP_CONF_IPV6=1
+
+CONTIKI = ../../contiki
+include $(CONTIKI)/Makefile.include
